@@ -28,11 +28,10 @@ pipeline {
         }
             
         }
-}
+
     stage('pushImage'){
         steps{
             sh 'docker push 288761730265.dkr.ecr.us-east-1.amazonaws.com/jenkins-ci:latest'
         }
     }
-   } 
-}
+   
