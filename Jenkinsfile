@@ -10,6 +10,7 @@ pipeline {
         steps{
             sh 'echo "test"'
             sh 'nproc'
+            sh 'pwd'
         }
 }
     stage('ceatefile'){
