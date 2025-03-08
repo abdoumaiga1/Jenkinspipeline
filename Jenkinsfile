@@ -16,7 +16,7 @@ pipeline {
     }
     stage('dockerImageBuild'){
         steps{
-            sh sh 'docker build -t jenkins-ci .'
+            sh 'docker build -t jenkins-ci .'
         }
     }
     stage(dockerImageTag){
