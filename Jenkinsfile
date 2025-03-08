@@ -9,6 +9,7 @@ pipeline {
     stage('test'){
         steps{
             sh 'echo "test"'
+            sh 'nproc'
         }
 }
     stage('ceatefile'){
